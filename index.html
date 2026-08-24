@@ -21,6 +21,20 @@
             background-color: #ffc107; /* warning yellow */
             border-color: #ffc107;
         }
+
+        /* Mega Dropdown Styling */
+        .navbar-nav .nav-item.dropdown {
+            position: static;
+        }
+
+        .navbar-nav .dropdown-menu {
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 100%;
+            border-radius: 0;
+            margin-top: 0;
+        }
     </style>
 </head>
 <body>
@@ -79,20 +93,214 @@
             </button>
             <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold text-uppercase small h-100">
-                    <li class="nav-item px-2 h-100">
-                        <a class="nav-link h-100 d-flex align-items-center" href="#">ACADEMICS</a>
+                    <li class="nav-item px-2 h-100 dropdown">
+                        <a class="nav-link h-100 d-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMICS</a>
+                        <div class="dropdown-menu shadow-sm p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Academic Programs</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Academic Calendar</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Continuing Education & Training Courses</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Course Search</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Register for Courses</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Graduation and Commencement</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Request A WCTC Transcript</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">High School Duel Credit</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">WCTC Excelerate</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Dual Enrollment Academy</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Start College Now</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Transcript Credit/Advanced Standing</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Youth Apprenticeships</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">High School Completion</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">English as a second Language</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Integrated Education & Training</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Academic Resources</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Testing Services</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Academic Support</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Academic Advising</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Student Accessibility</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Change Your Program</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Add, Drop or Withdraw from Classes</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Online Learning</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item px-2 h-100">
-                        <a class="nav-link h-100 d-flex align-items-center" href="#">ADMISSIONS</a>
+                    <li class="nav-item px-2 h-100 dropdown">
+                        <a class="nav-link h-100 d-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ADMISSIONS</a>
+                        <div class="dropdown-menu shadow-sm p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Apply to WCTC</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Apply & Go</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Next Steps After You're Accepted</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Register for Courses</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Course Search</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">8-Week Terms</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Register & Go</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Connect & Stay</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Tuition and Aid</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Financial Aid</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Enrollment Counseling</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Visit WCTC</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Open House</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Campus Maps</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Campus Tours</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Earning Credit for Prior Learning</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Transfer Students</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Homeschooled Students</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">International Students</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Veterans</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Students with Disabilities</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item px-2 h-100">
-                        <a class="nav-link h-100 d-flex align-items-center" href="#">CAMPUS LIFE</a>
+                    <li class="nav-item px-2 h-100 dropdown">
+                        <a class="nav-link h-100 d-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CAMPUS LIFE</a>
+                        <div class="dropdown-menu shadow-sm p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Events Calendar</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Bookstore</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Library – WCTC</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Career Connections</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Dining</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Activities and Organizations</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Student Clubs</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Student Leadership Council</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Study Abroad</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">WCTC Esports</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Student Mentoring Program</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">College Safety and Security</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Wellness and Support</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Mental Health Counseling</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Fitness at WCTC</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Campus Cupboard</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Child Development Center</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Campus Maps</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item px-2 h-100">
-                        <a class="nav-link h-100 d-flex align-items-center" href="#">COMMUNITY</a>
+                    <li class="nav-item px-2 h-100 dropdown">
+                        <a class="nav-link h-100 d-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">COMMUNITY</a>
+                        <div class="dropdown-menu shadow-sm p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">AI at WCTC</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Continuing Education & Training Courses</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Traffic Safety Courses</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Business Resources</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Corporate Training Center</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Hire WCTC Talent</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Facility Rentals</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Student-Provided Services</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Style & Class Salon and Spa</a></li><!--WHY DO THEY SWITCH BETWEEN &, & AND!!!-->
+                                            <li><a class="dropdown-item px-0" href="#">The Classic Room and Classic Bistro</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Dental Hygiene Clinic</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">K-12 Partner Hub</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Child Development Center</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">English as a Second Language</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">High School Completion</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item px-2 h-100">
-                        <a class="nav-link h-100 d-flex align-items-center" href="#">About WCTC</a>
+                    <li class="nav-item px-2 h-100 dropdown">
+                        <a class="nav-link h-100 d-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About WCTC</a>
+                        <div class="dropdown-menu shadow-sm p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Leadership</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">District Board</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">WCTC Foundation</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Accreditation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Critical Life Skills</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Institutional Effectivness</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Professional Licensure and Certification Disclosure</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">WCTC Newsroom</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <ul class="list-unstyled fw-normal text-capitalize">
+                                            <li><a class="dropdown-item px-0" href="#">Campus & Academic Policies</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Publications</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Current Catalog</a></li>
+                                            <li><a class="dropdown-item px-0" href="#">Forms</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item px-2 bg-warning rounded h-100">
                         <a class="nav-link text-dark h-100 d-flex align-items-center" href="#">APPLY</a>
